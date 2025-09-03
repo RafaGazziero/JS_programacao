@@ -1,6 +1,6 @@
 var n
 
-n = parseFloat(prompt("Digite o valo: "))
+n = parseFloat(prompt("Digite o valor: "))
 
 if(n > 0){
     alert("O valor é positivo")

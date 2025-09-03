@@ -2,7 +2,7 @@ var n1, n2, op, resultado
 
 n1 = parseInt(prompt("Digite o primeiro valor: "))
 n2 = parseInt(prompt("Digite o segundo valor: "))
-op = parseInt(prompt("Digite o número o qual corresponde a operação que você deseja realizar: /n 1 - soma/n 2 - subtração/n 3 - multiplicação/n 4 - divisão"))
+op = parseInt(prompt("Digite o número o qual corresponde a operação que você deseja realizar:  1 - soma 2 - subtração 3 - multiplicação 4 - divisão"))
 
 if(op = 1){
     resultado = n1 + n2
