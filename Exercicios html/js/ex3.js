@@ -2,12 +2,12 @@ var altura, esporte
 
 altura = parseFloat(prompt("Digite a sua altura em metros: "))
 
-if(altura >= 1.80){
+if(altura > 1.80){
     alert("Seu esporte é o basquete.")
 }
 
 
-if(altura <= 1.80){
+if(altura < 1.80){
     alert("Seu esporte é o futebol.")
 }
 
